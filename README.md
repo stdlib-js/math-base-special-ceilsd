@@ -35,38 +35,30 @@ limitations under the License.
 
 > Round a numeric value to the nearest number toward positive infinity with N significant figures.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-ceilsd
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ceilsd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ceilsd = require( 'path/to/vendor/umd/math-base-special-ceilsd/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ceilsd;
-})();
-</script>
+var ceilsd = require( '@stdlib/math-base-special-ceilsd' );
 ```
 
 #### ceilsd( x, n\[, b] )
@@ -107,14 +99,9 @@ var v = ceilsd( 0.0313, 2, 2 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var ceilsd = require( '@stdlib/math-base-special-ceilsd' );
 
 var x;
 var y;
@@ -125,11 +112,6 @@ for ( i = 0; i < 100; i++ ) {
     y = ceilsd( x, 5 );
     console.log( 'x: %d. Rounded: %d.', x, y );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -179,7 +161,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -224,13 +206,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil/tree/umd
+[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil
 
-[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd/tree/umd
+[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd
 
-[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd/tree/umd
+[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd
 
-[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd/tree/umd
+[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd
 
 <!-- </related-links> -->
 
