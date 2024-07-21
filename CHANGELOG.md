@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-20)
+## Unreleased (2024-07-21)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`ead1c3b`](https://github.com/stdlib-js/stdlib/commit/ead1c3b780527d8068d9c076e85688be94d53775) - **chore:** update package meta data [(#2640)](https://github.com/stdlib-js/stdlib/pull/2640) _(by stdlib-bot, Athan Reines)_
 -   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - **feat:** add C implementation for `math/base/special/ceilsd` _(by Gunj Joshi, Philipp Burckhardt)_
 
 </details>
@@ -44,8 +45,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
 
