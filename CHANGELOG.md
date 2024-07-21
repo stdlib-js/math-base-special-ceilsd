@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`6a0cbd9`](https://github.com/stdlib-js/stdlib/commit/6a0cbd9c10f0895d795be449fe1ea2a456f2683a) - **test:** fix tests for native implementation [(#2641)](https://github.com/stdlib-js/stdlib/pull/2641) _(by Gunj Joshi)_
 -   [`ead1c3b`](https://github.com/stdlib-js/stdlib/commit/ead1c3b780527d8068d9c076e85688be94d53775) - **chore:** update package meta data [(#2640)](https://github.com/stdlib-js/stdlib/pull/2640) _(by stdlib-bot, Athan Reines)_
 -   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - **feat:** add C implementation for `math/base/special/ceilsd` _(by Gunj Joshi, Philipp Burckhardt)_
 
