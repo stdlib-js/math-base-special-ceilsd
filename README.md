@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@esm/index.mjs';
+import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@v0.3.0-esm/index.mjs';
 ```
 
 #### ceilsd( x, n, b )
@@ -86,7 +86,7 @@ v = ceilsd( 0.0313, 2, 2 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@esm/index.mjs';
+import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@v0.3.0-esm/index.mjs';
 
 var x;
 var y;
