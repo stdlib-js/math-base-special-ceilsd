@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@deno/mod.js';
+import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@v0.3.1-deno/mod.js';
 ```
 
 #### ceilsd( x, n, b )
@@ -82,7 +82,7 @@ v = ceilsd( 0.0313, 2, 2 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@deno/mod.js';
+import ceilsd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceilsd@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
